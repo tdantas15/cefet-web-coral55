@@ -1,1 +1,64 @@
 @import "fonts/stylesheet.css";
+
+html {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #d3d3d3;
+}
+
+body {
+	background: linear-gradient( 0deg, #4599b2, #f8f1b2 ) no-repeat;
+	margin: 0px;
+}
+h1 {
+	font-family: ravie;
+	font-size: 36px;
+	color: #e90c0c;
+}
+
+#cabecalho > h2 {
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	color: #333;
+	margin-right: 30px;
+	text-align: right;
+}
+
+#cabecalho {
+	margin-left: 154px;
+
+}
+
+.roxo {
+	color: #d027aa;
+}
+
+#siri {
+	position: relative;
+	top: 17px;
+	left: -10px;
+}
+
+#peixe {
+	position: relative;
+	left: -44px;
+	display: block;
+}
+
+
+#lateral {
+	float: left;
+}
+
+#cardapio {
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid #d3d3d3;
+	border-right: 0px;
+	width: 646px;
+	margin-left: 154px;
+}
+
+.price {
+	text-align: left;
+}
